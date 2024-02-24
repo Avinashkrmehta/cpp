@@ -353,16 +353,16 @@ void pattern15(int num){
 
 void pattern17(int num){
   /*
-A
-B B
-C C C
+    A
+  A B A
+A B C B A
   
   */
 
  // logic 1
   char print = 65;
-  for(int i=1; i<=num; i++){
-    for(int j=1; j<=i; j++){
+  for(int i=0; i<num; i++){
+    for(int j=0; j<i; j++){
       cout << print << " ";
     }
     print+=1;
@@ -380,13 +380,92 @@ C C C
 
 }
 
+void pattern18(int num){
+  /*
+  C
+  C B 
+  C B A
+  
+  */
 
+ // logic 1
+  char print = 64 + num;
+  for(int i=0; i<num; i++){
+    for(int j=0; j<=i; j++){
+      cout << print << " ";
+          print-=1;
+    }
+    print = 64 + num;
+    cout << endl;
+  }
+// logic 2
+  for(int i=0; i<num; i++){
+    for(char ch=('A'+ num-1)-i; ch<=('A'+ num-1); ch++){
+      cout << ch << " ";
+    }
+    cout << endl;
+
+    
+  }
+
+}
+
+
+
+void pattern19(int num){
+  /*
+* * * * * * 
+* *     * * 
+*         * 
+*         * 
+* *     * * 
+* * * * * * 
+  
+  */
+
+  for(int i=0; i<num; i++){
+    for(int j=num-i; j>=1; j--){
+      cout<< "*";
+    }
+
+    for(int j=1; j<=2*i; j++){
+      cout<< " ";
+    }
+    
+    for(int j=1; j<=num-i; j++){
+      cout<< "*";
+    }
+    
+    cout << endl;
+  }
+int init = 2*num-2;
+  for(int i=0; i<num; i++){
+    for(int j=0; j<=i; j++){
+      cout<< "*";
+    }
+
+    for(int j=1; j<=init; j++){
+      cout<< " ";
+    }
+    
+    for(int j=0; j<=i; j++){
+      cout<< "*";
+    }
+    init -=2;
+    cout << endl;
+  }
+
+}
 
 
 int main(){
   int num;
   cin >> num;
-  pattern17(num);
+  pattern19(num);
+//  cout << "-----------------------";
+  // pattern18(num);
+//  cout << "-----------------------";
+  // pattern17(num);
 //  cout << "-----------------------";
   // pattern16(num);
 //  cout << "-----------------------";
