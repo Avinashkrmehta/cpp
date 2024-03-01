@@ -458,10 +458,59 @@ int init = 2*num-2;
 }
 
 
+void pattern20(int num){
+  /*
+  *         *
+  * *     * *
+  * * * * * *
+  * *     * *
+  *         *
+  
+  */
+
+int init = 2*num-2;
+  for(int i=0; i<num; i++){
+    for(int j=0; j<=i; j++){
+      cout<< "*";
+    }
+
+    for(int j=1; j<=init; j++){
+      cout<< " ";
+    }
+    
+    for(int j=0; j<=i; j++){
+      cout<< "*";
+    }
+    init -=2;
+
+    
+    cout << endl;
+  }
+  
+  for(int i=0; i<num; i++){
+    for(int j=num-i; j>=1; j--){
+      cout<< "*";
+    }
+
+    for(int j=1; j<=2*i; j++){
+      cout<< " ";
+    }
+    
+    for(int j=1; j<=num-i; j++){
+      cout<< "*";
+    }
+    
+    cout << endl;
+  }
+}
+
+
 int main(){
   int num;
   cin >> num;
-  pattern19(num);
+  pattern20(num);
+//  cout << "-----------------------";
+  // pattern19(num);
 //  cout << "-----------------------";
   // pattern18(num);
 //  cout << "-----------------------";
