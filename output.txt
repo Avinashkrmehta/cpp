@@ -1,7 +1,2 @@
-Avinash
-Avinash
-Avinash
-Avinash
-Avinash
-Avinash
-Avinash
+The largest element in the array is8
+The largest element in the array is75
