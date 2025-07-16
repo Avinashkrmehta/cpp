@@ -6,35 +6,33 @@
         "type": "shell",
         "command": "",
         "args": [
+          "copy",
+          "\"${file}\"",
+          "${workspaceFolder}\\jspwTest.cpp",
+          "&&",
           "g++",
-          "-g",
-          "${relativeFile}",
+          "jspwTest.cpp",
           "-o",
-          "${fileBasenameNoExtension}.out",
+          "jspwTest",
           "&&",
-          "clear",
-          "&&",
-          "timeout",
-          "10",
-          "/usr/bin/time",
-          "-v",
-          "--output",
-          "sys.txt",
-          "./${fileBasenameNoExtension}.out",
+          "jspwTest",
           "<",
           "input.txt",
           ">",
           "output.txt",
           "&&",
-          "rm",
-          "*out"
+          "del",
+          "jspwTest.exe",
+          "&&",
+          "del",
+          "jspwTest.cpp"
         ],
         "presentation": {
-          "reveal": "silent"
+          "reveal": "never"
         },
         "group": {
           "kind": "build",
-          "isDefault": true
+          "isDefault": true,
         },
         "problemMatcher": {
           "owner": "cpp",
@@ -50,6 +48,40 @@
             "severity": 4,
             "message": 5
           }
+        }
+      },
+
+      {
+        "label": "Run Ruby",
+        "type": "shell",
+        "command": "ruby",
+        "args": [
+            "${file}",
+            "<",
+            "input.txt",
+            ">",
+            "output.txt"
+        ],
+        "presentation": {
+            "reveal": "never"
+        },
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
+        "problemMatcher": {
+            "owner": "ruby",
+            "fileLocation": [
+                "relative",
+                "${workspaceFolder}"
+            ],
+            "pattern": {
+                "regexp": "^(.*):(\\d+):\\s+(error|warning):\\s+(.*)$",
+                "file": 1,
+                "line": 2,
+                "severity": 3,
+                "message": 4
+            }
         }
       }
     ]
