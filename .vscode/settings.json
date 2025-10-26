@@ -7,3 +7,13 @@
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
+
+{
+  "editor.suggestOnTriggerCharacter": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.parameterHints": false
+}
