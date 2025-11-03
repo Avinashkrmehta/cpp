@@ -1,1 +1,1 @@
-a = 10 b = 20 c = 30
+Optimal GCD of number 10 and 20 is 10

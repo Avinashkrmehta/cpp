@@ -1,149 +1,232 @@
-Warm up Programs
+# Warm up Programs
 
-Write a program to add two numbers.
-Write a program to calculate area of a circle.
-Write a program to print your name at the center of the screen.
-Write a program which takes input as integers only that is restrict other characters from input
+- 1 Write a program to add two numbers.
+- 2 Write a program to calculate area of a circle.
+- 3 Write a program to print your name at the center of the screen.
+- 4 Write a program which takes input as integers only that is restrict other characters from input
 
 
-Elementary tricky programs
+# Elementary tricky programs
 
 How to print %d using printf in C language
-Write a program to swap two numbers
-Write a program to swap two numbers without using third variable
-Write a program to check whether a number is even or odd without using modulus(%) operator
-Write a program to check even or odd without modulus and bitwise operator
+- Write a program to swap two numbers
+- Write a program to swap two numbers without using third variable
+- Write a program to check whether a number is even or odd without using modulus(%) operator
+- Write a program to check even or odd without modulus and bitwise operator
 C Program to move your name with keystrokes
 
 
-Programs on decision control(if,if else, switch)
+# Programs on decision control(if,if else, switch)
 
-Write a program to check whether a given number is even or odd.
-Write a program to check whether a given number is divisible by 5 or not.
-Write a program to to find greater between two numbers
-Write a program to to find greater among three numbers
-Write a program to find roots of a quadratic equation
+- Write a program to check whether a given number is even or odd.
+- Write a program to check whether a given number is divisible by 5 or not.
+- Write a program to to find greater between two numbers
+- Write a program to to find greater among three numbers
+- Write a program to find roots of a quadratic equation
 C Program to check leap year in Hindi
 
-Programs on Loops(while,do while, for)
+# Programs on Loops(while,do while, for)
 
-Write a program to print Your name 5 times on the screen. Solution
-Write a program to print first 10 natural numbers.Solution
-Write a program to print first 10 natural numbers in reverse order.Solution
-Write a program to print first N natural numbers. (N is given by user)Solution
-Write a program to print first N natural numbers in reverse order. (N is given by user)Solution
-Write a program to print first 10 even natural numbers.Solution
-Write a program to print first 10 odd natural numbers.Solution
-Write a program to print first N even natural numbers.Solution
-Write a program to print first N odd natural numbers.Solution
-Write a program to print first N even natural numbers in reverse orderSolution
-Write a program to print first N odd natural numbers in reverse orderSolution
-Write a program to print table of user’s choiceSolution
-Write a program to calculate sum of first N natural numbers Solution
-Write a program to calculate product of first N natural numbersSolution
-Write a program to calculate factorial of a numberSolution
-Write a program to calculate sum of first N even natural numbersSolution
-Write a program to calculate sum of first N odd natural numbersSolution
-Write a program to calculate x power y.(when user input x is 2 and y is 3 then the result will be 8)Solution
-Write a program to count digits in a given number.Solution
-Write a program to calculate sum of the digits of a given numberSolution
-Write a program to reverse a numberSolution
-Write a program to print all Armstrong numbers under 1000.Solution
-Write a program to calculate LCM of two numbersSolution
-Write a program to calculate HCF of two numbers.Solution
-Write a program to check whether a given number is prime or notSolution
-Write a program to print all prime numbers between two given numbersSolution
-Write a program to print all prime factors of a given number. For example prime factors of 36 are 2,2,3,3Solution
-Write a program to print first N terms of Fibonacci seriesSolution
-Write a program to check co-prime numberSolution
-Write a program to print N co-prime numbersSolution
-Write a program to convert a binary number to decimal number
-Write a program to convert a binary number to decimal number improved logic
-Program to print ASCII chartSolution
-Program to print first n positive numbers with two bits setSolution first logic|Solution Second Logic
-
-
-C programs on Functions
-
-Write a function to calculate factorial of a number.(Takes Something, Returns Something)Solution
-Write a function to calculate area of a circle.(Takes Something, Returns Something)
-Write a program to print System Date. Solution
-Write a function to calculate sum of first N natural numbers. (all four ways: TNRN, TSRN, TNRS, TSRS)Solution
-Write a function to calculate sum of squares of first N natural numbers.(all four ways: TNRN, TSRN, TNRS, TSRS)Solution
-Write a function to print Pascal triangleSolution
-Write a program to express a given number as a sum of two prime numbers. Print all possible solutions.Solution
+- Write a program to print Your name 5 times on the screen. 
+- Write a program to print first 10 natural numbers.
+- Write a program to print first 10 natural numbers in reverse order.
+- Write a program to print first N natural numbers. (N is given by user)
+- Write a program to print first N natural numbers in reverse order. (N is given by user)
+- Write a program to print first 10 even natural numbers.
+- Write a program to print first 10 odd natural numbers.
+- Write a program to print first N even natural numbers.
+- Write a program to print first N odd natural numbers.
+- Write a program to print first N even natural numbers in reverse order
+- Write a program to print first N odd natural numbers in reverse order
+- Write a program to print table of user’s choice
+- Write a program to calculate sum of first N natural numbers 
+- Write a program to calculate product of first N natural numbers
+- Write a program to calculate factorial of a number
+- Write a program to calculate sum of first N even natural numbers
+- Write a program to calculate sum of first N odd natural numbers
+- Write a program to calculate x power y.(when user input x is 2 and y is 3 then the result will be 8)
+- Write a program to count digits in a given number.
+- Write a program to calculate sum of the digits of a given number
+- Write a program to reverse a number
+- Write a program to print all Armstrong numbers under 1000.
+- Write a program to calculate LCM of two numbers
+- Write a program to calculate HCF of two numbers.
+- Write a program to check whether a given number is prime or not
+- Write a program to print all prime numbers between two given numbers
+- Write a program to print all prime factors of a given number. For example prime factors of 36 are 2,2,3,3
+- Write a program to print first N terms of Fibonacci series
+- Write a program to check co-prime number
+- Write a program to print N co-prime numbers
+- Write a program to convert a binary number to decimal number
+- Write a program to convert a binary number to decimal number improved logic
+Program to print ASCII chart
+Program to print first n positive numbers with two bits set first logic| Second Logic
 
 
+# C programs on Functions
 
-Programs on Recursion
-
-Write a recursive function to calculate factorial of a number.Solution
-Write a recursive function to find Nth term of Fibonacci series.Solution
-Write a recursive function to sort an arraySolution
-Write a recursive function to print first N natural numbersSolution
-Write a recursive function to print first N natural numbers in reverse orderSolution
-Write a recursive function to calculate sum of digits of a number Solution
-Write a recursive function to calculate sum of squares of digits of a numberSolution
-Write a recursive function to calculate sum of cubes of first N natural numbers Solution
-Write a recursive function to calculate determinant of any orderSolution Part 1 of 3 | Solution Part 2 of 3 | Solution part 3 of 3
+- Write a function to calculate factorial of a number.(Takes Something, Returns Something)
+- Write a function to calculate area of a circle.(Takes Something, Returns Something)
+- Write a program to print System Date. 
+- Write a function to calculate sum of first N natural numbers. (all four ways: TNRN, TSRN, TNRS, TSRS)
+- Write a function to calculate sum of squares of first N natural numbers.(all four ways: TNRN, TSRN, TNRS, TSRS)
+- Write a function to print Pascal triangle
+- Write a program to express a given number as a sum of two prime numbers. Print all possible s.
 
 
 
-Command Line Arguments
+# Programs on Recursion
 
-How to use command line arguments in C language using code blocks HindiSolution
-How to input integer using command line arguments in C language Hindi Solution
-C Program to add two numbers taking from command line arguments | Hindi Solution
-C Program to calculate factorial of a number taken from command line Solution
-
-
-
-C programs on Arrays
-
-Write a program to calculate sum of all even numbers and sum of all odd numbers. Numbers are entered through keyboard and stored in an array.Solution
-Write a program to find greatest among 10 numbersSolution
-Write a program to find smallest among 10 numbers.Solution
-Write a program to add two matrices, each of order 3×3Solution
-Write a program to multiply two matrices, each of order 3×3Solution
-Program to generate 10 distinct number in given range in CSolution
-Program to rotate an array by n positions in C language Solution
+- Write a recursive function to calculate factorial of a number.
+- Write a recursive function to find Nth term of Fibonacci series.
+- Write a recursive function to sort an array
+- Write a recursive function to print first N natural numbers
+- Write a recursive function to print first N natural numbers in reverse order
+- Write a recursive function to calculate sum of digits of a number 
+- Write a recursive function to calculate sum of squares of digits of a number
+- Write a recursive function to calculate sum of cubes of first N natural numbers 
+- Write a recursive function to calculate determinant of any order Part 1 of 3 |  Part 2 of 3 |  part 3 of 3
 
 
 
-C programs on Strings
+# Command Line Arguments
 
-Write a Program to calculate length of the string using strlen() function.Solution
-Write a program to reverse a string using strrev() function.Solution
-Write a program to reverse a string without using strrev() function.Solution
-Write a program to transform a string to its uppercase Solution
-Write a program to sort strings in dictionary orderSolution
-Write a program to check whether a string is palindrome or notSolution
-Write a program to count words in a sentenceSolution
-Write a program to reverse a string word wiseSolution
-Write a program to remove adjacent duplicate characters from a stringSolution
-Write a program to check whether a given string is alphanumeric or not.Solution
-Write a program to input variable length string.
-Write a program to count vowels in a given stringSolution
-Write a program to find a substring in a given string Solution
-Structure in C language
-
-Write a program that define a structure student, with members rollno, name and age. Also define functions to input and show student data.Solution
+- How to use command line arguments in C language using code blocks Hindi
+- How to input integer using command line arguments in C language Hindi 
+- C Program to add two numbers taking from command line arguments | Hindi 
+- C Program to calculate factorial of a number taken from command line 
 
 
 
-C programs on Linked list
+# C programs on Arrays
 
-How to reverse a linked list in CSolution
-Program of circular linked list Part-1Solution
-Program of circular linked list in C Part-2Solution
-Program of Circular linked list in C Part-3Solution
-Program of Circular linked list in C Part-4Solution
-Program of Circular linked list in C Part-5Solution
-Program of Circular linked list in C Part-6Solution
-Program of Circular linked list in C Part-7Solution
-Program of Circular linked list in C Part-8Solution
+- Write a program to calculate sum of all even numbers and sum of all odd numbers. Numbers are entered through keyboard and stored in an array.
+- Write a program to find greatest among 10 numbers
+- Write a program to find smallest among 10 numbers.
+- Write a program to add two matrices, each of order 3×3
+- Write a program to multiply two matrices, each of order 3×3
+- Program to generate 10 distinct number in given range in C
+- Program to rotate an array by n positions in C language 
 
 
+
+# C programs on Strings
+
+- Write a Program to calculate length of the string using strlen() function.
+- Write a program to reverse a string using strrev() function.
+- Write a program to reverse a string without using strrev() function.
+- Write a program to transform a string to its uppercase 
+- Write a program to sort strings in dictionary order
+- Write a program to check whether a string is palindrome or not
+- Write a program to count words in a sentence
+- Write a program to reverse a string word wise
+- Write a program to remove adjacent duplicate characters from a string
+- Write a program to check whether a given string is alphanumeric or not.
+- Write a program to input variable length string.
+- Write a program to count vowels in a given string
+- Write a program to find a substring in a given string 
+
+# Structure in C language
+
+- Write a program that define a structure student, with members rollno, name and age. Also define functions to input and show student data.
+
+
+
+# C programs on Linked list
+
+- How to reverse a linked list in C
+- Program of circular linked list Part-1
+- Program of circular linked list in C Part-2
+- Program of Circular linked list in C Part-3
+- Program of Circular linked list in C Part-4
+- Program of Circular linked list in C Part-5
+- Program of Circular linked list in C Part-6
+- Program of Circular linked list in C Part-7
+- Program of Circular linked list in C Part-8
+
+## Warm-up Programs
+- Add two numbers
+- Calculate circle area
+- Print centered name
+- Integer-only input validation
+
+## Elementary Tricky Programs
+- Print %d using printf
+- Swap numbers (with/without third variable)
+- Even/odd check without modulus
+- Moving name with keystrokes
+
+## Decision Control
+- Even/odd checker
+- Divisibility by 5
+- Greater number finder (2 and 3 numbers)
+- Quadratic equation solver
+- Leap year checker
+
+## Loop Programs
+1. Basic Printing
+  - Print name 5 times
+  - First 10 natural numbers (normal/reverse)
+  - First N natural numbers
+
+2. Series & Patterns
+  - Even/odd naturals
+  - Multiplication tables
+  - Factorial calculation
+  - Armstrong numbers
+  - Fibonacci series
+  - Prime numbers & factors
+  - Binary/decimal conversion
+
+3. Mathematical
+  - Sum/product of naturals
+  - LCM and HCF
+  - Power calculation
+  - Digit operations (count, sum, reverse)
+
+## Functions
+- Factorial and area calculators
+- System date printer
+- Sum calculators (TNRN, TSRN, TNRS, TSRS)
+- Pascal triangle
+- Prime number sum pairs
+
+## Recursion
+- Factorial & Fibonacci
+- Array sorting
+- Natural number operations
+- Digit sum operations
+- Matrix determinant
+
+## Command Line Arguments
+- Integer input
+- Basic arithmetic
+- Factorial calculation
+
+## Arrays
+- Even/odd sum
+- Min/max finding
+- Matrix operations
+- Array rotation
+- Random number generation
+
+## String Operations
+- Length & reversal
+- Case transformation
+- Dictionary sorting
+- Palindrome check
+- Word operations
+- Character counting
+- Substring search
+
+## Structures
+- Student record system (basic)
+
+## Linked Lists
+- List reversal
+- Circular linked list operations
+
+Note: Solutions available for most programs. Additional code examples available on request.
 
 Graphics
 
